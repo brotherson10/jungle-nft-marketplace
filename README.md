@@ -39,6 +39,7 @@ Definidas em `.env` (versionado, sem segredos). Para sobrescrever localmente, us
 | `npm run typecheck` | `tsr generate` + `tsc -b` (TypeScript strict). |
 | `npm run lint` | ESLint. |
 | `npm run test:e2e` | Playwright (Chromium desktop 1440×900 e mobile Pixel 7), sobe o dev server sozinho. |
+| `E2E_BASE_URL=https://jungle-nft-marketplace-phi.vercel.app npm run test:e2e` | Mesma suíte contra o ambiente publicado (sem dev server local). |
 | `npm run test:e2e:report` | Abre o relatório HTML (`playwright-report/`). Traces e screenshots ficam em `test-results/` em caso de falha. |
 | `npx playwright test e2e/visual.spec.ts --update-snapshots` | Regera as baselines visuais (revise as imagens antes de versionar). |
 | `npm run audit:lighthouse` | Build + Lighthouse (início e detalhe × mobile/desktop × 3), relatórios em `lighthouse/`. |
