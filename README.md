@@ -2,7 +2,8 @@
 
 Solução do [desafio frontend](https://github.com/junglegaming/frontend-challenge): React + TypeScript com TanStack Router/Query, Axios, Socket.IO, Tailwind CSS, shadcn/ui, MSW, Playwright e Lighthouse. Toda a regra de negócio (catálogo, sessão, carrinho, cotação, pedidos, carteiras) é simulada **exclusivamente na camada MSW**, inclusive no build público; o tempo real passa por `socket.io-client` sobre um WebSocket interceptado pelo MSW.
 
-- Demonstração: `<URL da Vercel>` (preencher após o deploy)
+- Aplicação: https://jungle-nft-marketplace-phi.vercel.app
+- Repositório: https://github.com/brotherson10/jungle-nft-marketplace
 - Decisões, contratos e limitações: [ARCHITECTURE.md](ARCHITECTURE.md)
 - Auditoria de performance: [lighthouse/summary.md](lighthouse/summary.md)
 

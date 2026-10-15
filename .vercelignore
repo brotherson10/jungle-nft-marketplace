@@ -1,0 +1,9 @@
+node_modules
+dist
+test-results
+playwright-report
+lighthouse
+design-reference
+e2e/visual.spec.ts-snapshots
+.env.local
+.vercel
