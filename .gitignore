@@ -1,0 +1,10 @@
+node_modules
+dist
+*.local
+*.tsbuildinfo
+.vercel
+# Artefatos de execução local (o relatório final do Playwright e o Lighthouse são versionados)
+test-results
+blob-report
+.DS_Store
+*.tmp.*
